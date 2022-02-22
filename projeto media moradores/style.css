@@ -1,16 +1,17 @@
 body {
     text-align: center;
     background-color: blue;
-    font-family: cursive;
+    font-family: arial;
+    margin:10rem;
+
 }
 
 
 .app{
-    color: blue;
+    color: orange;
     align-items: center;
-    margin-top: 10rem;
+    margin-top: 20rem;
     text-align: center;
-    background-color: orange;
     border-radius: 10px;
     height: 20rem;
     margin: 5rem;
@@ -20,6 +21,12 @@ body {
 input {
     width: 50px;
     background-color: orange;
+    border-radius:20px;
+    margin-left: 2rem;
+    
+}
+input:hover{
+    width: 60px;
 }
 
 button{
@@ -30,3 +37,20 @@ button{
 div{
     margin:  25px;
 }
+button{
+    background-color:red;
+    border-radius:20px;
+    width: 10rem;
+    height: 2rem;
+    color:blue;
+    font-family:arial;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: orange;
+    width: 12rem;
+    cursor:pointer;
+    border-radius: 10px;
+}
+
