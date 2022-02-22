@@ -32,7 +32,7 @@ function imc() {
            {
                classificacao = 'você está com obesidade nv 2 ou mais;'
            }
-      resultado.textContent = `${nome} seu Imc é ${conta} e você está com ${classificacao}` ;    }
+      resultado.textContent = `${nome} seu Imc é ${conta} e você está  ${classificacao}` ;    }
      
   else {
 alert('preencha os campos')
